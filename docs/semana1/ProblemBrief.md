@@ -43,7 +43,7 @@ Un oficinista de 32 años en CDMX que vive estrés o autoexigencia ya probó ter
 > Integrantes con su usuario de GitHub, rol asumido por cada persona, responsable de las entregas y canal de coordinación interna. Extensión: breve.
 
 - [AdrianaLhada](https://github.com/AdrianaLhada) — Rol: Methodology & Product Lead
-- elba333 — Rol: Product & Business Lead
+- [elba333](https://github.com/elba333) — Rol: Product & Business Lead
 - [devmondoss](https://github.com/devmondoss) — Rol: Full stack
 - [nayelicz](https://github.com/nayelicz) — Rol: Backend
 - [rodyxdev](https://github.com/rodyxdev) — Rol: Backend
