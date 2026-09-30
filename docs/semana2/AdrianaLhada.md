@@ -1,4 +1,4 @@
-# Historias de usuario — Adriana
+# Historias de usuario — Adriana Lhada
 
 ## Mis historias de usuario
 
