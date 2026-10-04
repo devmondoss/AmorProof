@@ -66,7 +66,7 @@ Están en **GitHub Issues** con labels:
 - `done` — completado
 - Label de asignado (tu nombre)
 
-Referencia de tarjetas: [`docs/planning/MVP_BACKLOG_FINAL.md`](./docs/planning/MVP_BACKLOG_FINAL.md)
+El backlog no va en archivos: vive en el tablero Kanban de GitHub Projects, enlazado desde ProductBlueprint.md.
 
 No muevas tarjetas a Google Docs. El estado real está en GitHub Issues.
 

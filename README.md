@@ -30,7 +30,7 @@ Las soluciones actuales (educación financiera, apps de presupuesto, asesoría) 
 | 8 | **Reflexión semanal** | Resumen descriptivo de categorías, momentos y emociones |
 | 9 | **Medición de recurrencia** | Activación, retorno a 7/14/28 días y aprendizajes completados |
 
-Detalle de tarjetas y criterios: [`docs/planning/MVP_BACKLOG_FINAL.md`](./docs/planning/MVP_BACKLOG_FINAL.md) · Tablero: [Backlog Semana 2](https://github.com/devmondoss/AmorProof/projects/1)
+Tablero con criterios por tarjeta: [Backlog Semana 2](https://github.com/devmondoss/AmorProof/projects/1)
 
 ---
 
@@ -47,13 +47,6 @@ docs/
 │   ├── NayeliChavez.md              ← Historias de usuario
 │   ├── ProductBlueprint.md          ← Product Blueprint (entregable grupal)
 │   └── LeanCanvass2.md              ← Lean Canvas v1.0 (+ imagen PNG)
-└── planning/                        ← Análisis y material de refinamiento (no es entregable)
-    ├── README.md
-    ├── ANALISIS_BACKLOG_DEFICIENCIAS.md
-    ├── MIS_ISSUES_REFINADOS.md
-    ├── MVP_BACKLOG.md
-    ├── MVP_BACKLOG_FINAL.md
-    └── CHECKLIST_ENTREGAS.md
 
 CLAUDE.md                            ← Workflow del equipo
 README.md                            ← Este archivo

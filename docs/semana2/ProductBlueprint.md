@@ -88,7 +88,7 @@ Do-Own: Registra → Aprende → Actúa → Recibe → Posee. Todo en una sola e
 
 ## 5. Lean Canvas
 
-**Enlace al Lean Canvas (obligatorio):** [Ver documento completo en ProductBlueprint expandido](https://github.com/devmondoss/AmorProof/blob/main/docs/semana2/ProductBlueprint.md)
+**Enlace al Lean Canvas (obligatorio):** [Lean Canvas del proyecto](https://github.com/devmondoss/AmorProof/blob/main/docs/semana2/LeanCanvass2.md)
 
 | Sección | Contenido |
 |---------|-----------|
