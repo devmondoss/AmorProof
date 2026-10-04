@@ -66,7 +66,9 @@ Están en **GitHub Issues** con labels:
 - `done` — completado
 - Label de asignado (tu nombre)
 
-No muevas tarjetas a Google Docs. El estado real está acá.
+Referencia de tarjetas: [`docs/planning/MVP_BACKLOG_FINAL.md`](./docs/planning/MVP_BACKLOG_FINAL.md)
+
+No muevas tarjetas a Google Docs. El estado real está en GitHub Issues.
 
 ### 4. Lean Canvas (Semana 3)
 **Archivo:** `docs/semana3/LeanCanvas.md` o `docs/semana3/LeanCanvas.png`

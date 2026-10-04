@@ -29,7 +29,7 @@ Las soluciones actuales (educación financiera, apps de presupuesto, asesoría) 
 | 7 | **Hash inalterable** | Verificar que nada fue editado |
 | 8 | **Reflexión semanal** | Resumen de patrones (sin interpretación) |
 
-👉 **[Ver detalles completos en `MVP_BACKLOG.md`](./MVP_BACKLOG.md)**
+👉 **[Ver detalles completos en `docs/planning/MVP_BACKLOG_FINAL.md`](./docs/planning/MVP_BACKLOG_FINAL.md)**
 
 ---
 
@@ -47,10 +47,14 @@ docs/
 │   └── Elba.md                      ← Historias de usuario (pendiente)
 ├── semana3/
 │   └── LeanCanvas.md                ← Lienzo de modelo de negocio (pendiente)
+├── planning/
+│   ├── MVP_BACKLOG.md               ← Tarjetas del backlog (referencia)
+│   ├── MVP_BACKLOG_FINAL.md         ← Tarjetas finales del backlog
+│   ├── CHECKLIST_ENTREGAS.md        ← Checklist de entregas
+│   └── ANALISIS_BACKLOG_DEFICIENCIAS.md ← Análisis técnico y mejoras
 └── ...
 
 CLAUDE.md                             ← Workflow oficial del equipo
-MVP_BACKLOG.md                        ← 8 tarjetas listas para GitHub Issues
 README.md                             ← Este archivo
 ```
 
