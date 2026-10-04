@@ -85,20 +85,6 @@ Todo vive en GitHub. Ver [CLAUDE.md](./CLAUDE.md) para el flujo completo.
 
 ---
 
-## 📋 Estado (4 de octubre de 2026)
-
-**Semana 1:** ✅ Problem Brief
-
-**Semana 2:**
-- ✅ Historias de usuario: Adriana, Anthony, Rodrigo, Nayeli
-- ⏳ Historias de usuario: Elba (pendiente)
-- ✅ Product Blueprint
-- ✅ Lean Canvas v1.0
-- ✅ 9 Issues del MVP creados en GitHub
-- ⏳ Issues #5 y #9 sin Elba asignada (pendiente que sea colaboradora del repo)
-
----
-
 ## 🔗 Enlaces
 
 - **Issues:** [GitHub Issues](https://github.com/devmondoss/AmorProof/issues)
