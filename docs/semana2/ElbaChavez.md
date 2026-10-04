@@ -1,4 +1,4 @@
-# Historias de usuario — Elba
+# Historias de usuario
 
 ## Mis historias de usuario
 
@@ -12,6 +12,6 @@
 
 5. Como persona con estrés financiero, quiero ver evidencia de los avances que voy logrando, para experimentar que mejorar mi relación con el dinero también puede mejorar mi calidad de vida.
 
-## La más importante y por qué
+## Por qué ese orden:
 
 El orden se establece de esa forma para primero, comprender el origen del estrés financiero y sus efectos y luego identificar cómo limita la autonomía y la vida cotidiana. Lo último para mi es mostrar cómo se incorpora la evidencia de progreso y porqué sirve para sostener y reforzar el cambio una vez que la persona ya reconoce sus patrones e impactos.
