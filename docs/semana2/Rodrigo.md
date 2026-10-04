@@ -1,15 +1,9 @@
+
 Mis historias de usuario
-
-1.-Como oficinista que vive con autoexigencia o estrés, quiero registrar en tiempo real lo que pienso, siento y hago en el instante exacto en que se activa un episodio de presión, para capturar mi reacción honesta sin depender de lo que recuerde horas después.
-
-2.-Como oficinista en proceso de cambio de hábitos, quiero consultar una línea de tiempo acumulada e inalterable de mis registros, para confrontar mis patrones automáticos frente a hechos reales y no frente a una versión editada o idealizada de mí mismo.
-
-3.-Como usuario enfocado en la privacidad de mi salud mental, quiero que el contenido íntimo de mis reflexiones permanezca encriptado y bajo mi control, para tener la certeza de que nadie puede acceder a mis vulnerabilidades sin mi autorización expresa.
-
-4.-Como usuario escéptico de las plataformas convencionales, quiero verificar que el historial de mis registros cuenta con un sello criptográfico inmutable, para tener la garantía de que ni la empresa proveedora de la app ni yo en un momento de frustración podemos borrar o maquillar el histórico.
-
-5.-Como persona que busca sostener su proceso personal sin abandonar, quiero recibir métricas visuales de consistencia y avance basadas en mis registros verificados, para reconocer mi progreso sostenido antes de caer en la frustración de creer que no estoy avanzando.
-
-6.-Como terapeuta o profesional de la salud mental, quiero que mi paciente pueda compartirme voluntariamente el acceso a su historial estructurado y sellado en el tiempo, para enfocar las sesiones en conductas y detonantes reales en lugar de reconstruir recuerdos imprecisos de la semana.
-
-7.-Como individuo en un proceso de cambio de hábitos, quiero consultar un espejo visual e inalterable de mis registros pasados, para confrontar mis patrones automáticos recurrentes a partir de datos objetivos y no desde una memoria selectiva o sesgada.
+1.-Como adulto de 31 años con estrés financiero crónico, quiero registrar en pocos segundos el contexto y la emoción detonante detrás de una decisión de compra o endeudamiento, para entender el "por qué" de mi comportamiento y no quedarme únicamente con la cifra numérica del gasto.
+2.-Como usuario económicamente activo en proceso de cambio de hábitos, quiero acceder a un historial inmutable y sellado con pruebas criptográficas de mis decisiones pasadas, para confrontar mis patrones reales frente a datos auténticos sin caer en la tentación de maquillar o justificar registros previos.
+3.-Como persona preocupada por la privacidad de mis finanzas, quiero que mis datos económicos y reflexiones personales se almacenen fuera de la cadena (off-chain) y solo se registre una huella criptográfica de integridad, para tener la certeza de que mi información sensible nunca quedará expuesta públicamente en blockchain.
+4.-Como usuario propenso a desmotivarse por la falta de resultados inmediatos, quiero acumular puntos verificables por cada micro-compromiso cumplido y registro completado, para visibilizar pequeños avances cotidianos antes de frustrarme al no ver metas patrimoniales a largo plazo de forma instantánea.
+5.-Como adulto que busca romper el ciclo de deuda mes tras mes, quiero visualizar un reporte de patrones acumulados que vincule los conceptos financieros aprendidos con mis conductas reales, para saber con precisión qué hábitos específicos he logrado modificar y en cuáles sigo reaccionando por impulso.
+6.-Como aprendiz de finanzas personales, quiero poner a prueba conceptos financieros teóricos directamente sobre mis decisiones cotidianas, para validar si lo que estoy aprendiendo realmente se traduce en un cambio de conducta sostenible y no en simple información teórica acumulada.
+7.-Como asesor o educador financiero, quiero consultar con la autorización de mi cliente una prueba verificable de su constancia y hábitos sostenidos, para brindarle un acompañamiento adaptado a su comportamiento cotidiano comprobado y no solo a lo que recuerde contarme.
