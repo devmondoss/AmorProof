@@ -1,5 +1,6 @@
 
 Mis historias de usuario
+
 1.-Como adulto de 31 años con estrés financiero crónico, quiero registrar en pocos segundos el contexto y la emoción detonante detrás de una decisión de compra o endeudamiento, para entender el "por qué" de mi comportamiento y no quedarme únicamente con la cifra numérica del gasto.
 
 2.-Como usuario económicamente activo en proceso de cambio de hábitos, quiero acceder a un historial inmutable y sellado con pruebas criptográficas de mis decisiones pasadas, para confrontar mis patrones reales frente a datos auténticos sin caer en la tentación de maquillar o justificar registros previos.
