@@ -49,7 +49,7 @@
 
 Hoy: Prueba apps de presupuesto (solo registra), cursos de finanzas (solo teoría) o promesas cripto (no entiende). Cada herramienta es un silo. No hay conexión entre aprender y hacer. No hay recompensa.
 
-AmorProof: Registra → Aprende → Actúa → Recibe → Posee. Todo en una sola experiencia. Aprendizaje que paga desde el primer registro.
+Do-Own: Registra → Aprende → Actúa → Recibe → Posee. Todo en una sola experiencia. Aprendizaje que paga desde el primer registro.
 
 ---
 
@@ -134,7 +134,7 @@ El tablero contiene las 9 historias priorizadas, organizadas en columnas (Backlo
 
 **Capa 4: Stellar (Blockchain)**
 - Cuenta usuario
-- Activo digital (AmorProof token)
+- Activo digital (Do-Own token)
 - Balance
 - Transferencias
 - Hashes verificables
@@ -152,7 +152,7 @@ El tablero contiene las 9 historias priorizadas, organizadas en columnas (Backlo
 | Componente de Stellar | Para qué lo usamos | Por qué ese y no otra alternativa |
 | --- | --- | --- |
 | Cuenta Stellar (keypair) | Propiedad real del usuario sobre sus activos | Ethereum requiere gas alto. Stellar es más simple y barato (~$0.000002 USD/tx). |
-| Activo custom (AmorProof) | Emitir tokens como recompensa real | Bitcoin no permite activos custom. Stellar sí, diseñado para esto. |
+| Activo custom (Do-Own) | Emitir tokens como recompensa real | Bitcoin no permite activos custom. Stellar sí, diseñado para esto. |
 | Transacciones | Transferir tokens entre usuarios | Validar que la transacción es real y verificable. |
 | Memo (transacciones) | Anclar hash SHA256 de registros | Comprobar después que un registro no fue alterado sin revelar contenido. |
 

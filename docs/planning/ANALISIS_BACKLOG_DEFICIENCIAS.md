@@ -291,7 +291,7 @@ CREATE TABLE lecciones_respuestas (
 ### Arquitectura Stellar
 - Modelo CUSTODIAL: App maneja keys en backend (más simple, menos seguro)
 - Una cuenta Stellar maestra por usuario
-- Tokens custom: AmorProof (código de activo)
+- Tokens custom: Do-Own (código de activo)
 - Red: Stellar Testnet (desarrollo), mainnet en producción
 
 ### Flujo Técnico
@@ -317,7 +317,7 @@ GET /mi-cuenta/saldo
 Respuesta:
 {
   "saldo": 42.5,
-  "moneda": "AmorProof",
+  "moneda": "Do-Own",
   "cuenta_publica": "GXXXXXX..." (últimos 8 caracteres)
 }
 

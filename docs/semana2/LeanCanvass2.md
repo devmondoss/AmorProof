@@ -1,4 +1,4 @@
-# 🧩 Lean Canvas — AmorProof
+# 🧩 Lean Canvas — Do-Own
 
 **Versión 1.0** · Semana 3 · Responsable: [@nayelicz](https://github.com/nayelicz)
 

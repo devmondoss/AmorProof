@@ -97,7 +97,7 @@ Como persona con estrés financiero, quiero ver y mover mis tokens en mi cuenta 
 ### Arquitectura Stellar
 **Modelo:** CUSTODIAL (backend maneja keys, más simple)
 - 1 cuenta Stellar maestra por usuario
-- Activo custom: AmorProof (código único)
+- Activo custom: Do-Own (código único)
 - Red: Stellar Testnet (desarrollo), mainnet (producción)
 - Costo: ~0.00001 XLM por transacción (~$0.000002 USD)
 
@@ -129,7 +129,7 @@ Respuesta:
 ```json
 {
   "saldo": 42.50,
-  "moneda": "AmorProof",
+  "moneda": "Do-Own",
   "cuenta_publica": "GXXXXXX...YYZZ", // últimos 8 chars
   "actualizado_en": "2026-10-04T12:30:45Z"
 }

@@ -1,4 +1,4 @@
-# ✅ Checklist de Entregas — AmorProof
+# ✅ Checklist de Entregas — Do-Own
 
 **Hoy (4 de Octubre):** Fecha límite de Semana 2
 

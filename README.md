@@ -1,8 +1,8 @@
-# 🎯 AmorProof
+# 🎯 Do-Own
 
 **Historial verificable para cambiar hábitos financieros.**
 
-Un adulto de 31 años experimenta estrés financiero porque enfrenta decisiones cotidianas sobre gasto, ahorro y deuda. Sin ver sus propios hábitos, termina mes a mes endeudado, repitiendo lo mismo. AmorProof te devuelve un histórico inalterable de tus decisiones para que identifiques patrones y cambies lo que realmente importa.
+Un adulto de 31 años experimenta estrés financiero porque enfrenta decisiones cotidianas sobre gasto, ahorro y deuda. Sin ver sus propios hábitos, termina mes a mes endeudado, repitiendo lo mismo. Do-Own te devuelve un histórico inalterable de tus decisiones para que identifiques patrones y cambies lo que realmente importa.
 
 ---
 
@@ -12,7 +12,7 @@ En México, 36.9% de los adultos presenta estrés financiero alto (ENSAFI 2023).
 
 **La brecha:** Saber qué debería cambiar NO es lo mismo que ver por qué lo repites mes a mes.
 
-Las soluciones actuales (educación financiera, apps de presupuesto, asesoría) fragmentan el aprendizaje. **AmorProof integra:** educación + registro en tiempo real + evidencia de progreso + histórico inalterable.
+Las soluciones actuales (educación financiera, apps de presupuesto, asesoría) fragmentan el aprendizaje. **Do-Own integra:** educación + registro en tiempo real + evidencia de progreso + histórico inalterable.
 
 ---
 
