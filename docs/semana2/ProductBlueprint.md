@@ -21,144 +21,142 @@
 
 ## 1. Priorización de historias
 
-**Criterio de priorización:** Impacto en validación del ciclo central (Observar → Aprender → Recibir → Poseer)
-
-| Prioridad | Historia | Propuesta por | Por qué entra al backlog |
-| :---: | --- | :---: | --- |
-| 1 | Como persona con estrés financiero, quiero registrar una decisión de gasto con una foto, para que la app la clasifique sin que tenga que escribir nada. | Adriana | Sin observación de decisiones, no hay ciclo. Es la puerta de entrada. |
-| 2 | Como persona con estrés financiero, quiero recibir tokens al completar un registro, para tener una razón tangible que me ayude a sostener el hábito. | Rodrigo | Sin recompensa inmediata, no hay motivación para repetir. Valida retención. |
-| 3 | Como persona con estrés financiero, quiero ver y mover mis tokens en mi cuenta de Stellar, para tener mi primer activo digital sin necesitar conocimiento técnico previo. | Anthony | Es el diferenciador: recompensa digital → propiedad real. Valida cripto sin barrera. |
-| 4 | Como persona nueva, quiero completar un registro breve y entender el propósito de la app, para empezar sin dar información financiera sensible de entrada. | Adriana | Sin onboarding claro, no hay activación. Esencial para entrada. |
-| 5 | Como persona con estrés financiero, quiero asociar un emoji a mi registro, para capturar cómo me sentí en ese momento. | Adriana | Conecta decisión financiera con emoción. Requisito para "aprender". |
-| 6 | Como persona con estrés financiero, quiero ver un resumen de mis registros de la semana, para observar mi patrón sin que la app me diga qué hacer. | Adriana | Cierra el ciclo: observar nuevamente. Valida identificación de patrones. |
-| 7 | Como persona con estrés financiero, quiero completar una micro-lección relacionada con lo que registré, para aprender un concepto aplicado a mi situación. | Rodrigo | Valida si aprendizaje + recompensa sostienen hábito. Importante pero puede ser después. |
-| 8 | Como persona con estrés financiero, quiero confiar en que mi registro no fue alterado, para que el patrón que observo sea honesto. | Anthony | Justificación blockchain. Valida diferenciador técnico, pero secundario en Fase 1. |
-| 9 | Como equipo de producto, quiero medir activación, frecuencia y retorno, para validar si el ciclo realmente genera un hábito sostenido. | Anthony | Essential para análisis post-lanzamiento. Métricas internas. |
+De las 7 historias propuestas, priorizamos las 5 primeras (registro de decisión financiera, micro-lección aplicada, recompensa en tokens, primer flujo de cripto, y verificación de integridad del registro), porque juntas completan el ciclo mínimo que resuelve el problema: la persona registra, aprende, gana y recibe su primera experiencia real de propiedad digital, de forma verificable. Las dos restantes (verificación para empresas y para contadores/asesores) requieren una capa de consentimiento de terceros que no alcanza a construirse en el tiempo del MVP, así que quedan para una fase posterior. El criterio de priorización fue: ¿esta historia es necesaria para que el ciclo completo funcione de principio a fin, o es una extensión de valor que el producto puede sostener sin ella?
 
 ---
 
 ## 2. Propuesta de valor
 
-**Usuario (del Problem Brief):** Adulto de 25–35 años, económicamente activo, con estrés financiero recurrente que sabe qué debería cambiar en sus hábitos de gasto pero no logra sostenerlo.
+**Convertí el aprendizaje financiero en tu primer activo digital.**
 
-**Resultado que obtiene:** Observa sus decisiones financieras en tiempo real, aprende por qué las toma y recibe una recompensa digital tangible que convierte el aprendizaje en su primer activo digital real.
+Para adultos que saben que deberían cambiar cómo gastan, ahorran o manejan sus deudas, pero continúan repitiendo patrones que les generan estrés financiero porque no identifican qué hay detrás de sus decisiones, nuestro producto convierte el aprendizaje financiero en una experiencia práctica y recompensada.
 
-**Por qué elegiría esta solución:** Porque no es un curso abstracto (sigue siendo teórico), ni una app de presupuesto (solo registra datos), ni una promesa cripto lejana (está aquí, ahora). Es su propia vida financiera convertida en una experiencia práctica que paga desde el primer día.
+La plataforma guía al usuario a observar, comprender y actuar sobre sus propios hábitos financieros mediante pequeñas acciones concretas. Por cada acción completada, recibe recompensas en cripto, creando una primera experiencia real de propiedad digital sin exigir conocimientos previos de blockchain.
 
-**En qué se diferencia de cómo lo resuelve hoy:** 
+El resultado no es solamente aprender sobre finanzas o cripto. Es pasar de "no sé cómo funciona" a "ya tengo mi primer activo digital y sé cómo interactuar con él".
 
-Hoy: Prueba apps de presupuesto (solo registra), cursos de finanzas (solo teoría) o promesas cripto (no entiende). Cada herramienta es un silo. No hay conexión entre aprender y hacer. No hay recompensa.
+A diferencia de las aplicaciones de finanzas personales, que se enfocan principalmente en registrar y visualizar información, y de los cursos tradicionales, que entregan conocimiento sin un retorno tangible, nuestro producto conecta comportamiento, aprendizaje y recompensa en un mismo recorrido.
 
-Do-Own: Registra → Aprende → Actúa → Recibe → Posee. Todo en una sola experiencia. Aprendizaje que paga desde el primer registro.
+El usuario no necesita entender blockchain para comenzar. Empieza desde algo que ya conoce: su propia vida financiera.
+
+Observar → Aprender → Actuar → Recibir → Poseer.
+
+Así, el aprendizaje deja de ser solamente información y se convierte en una experiencia tangible de propiedad digital.
 
 ---
 
 ## 3. Flujo de usuario
 
-| Paso | Rol | Qué hace | Punto de interacción |
-| :---: | :---: | --- | --- |
-| 1 | Persona nueva | Abre la app, registra email/contraseña, ve explicación del propósito | Pantalla de onboarding |
-| 2 | Persona con gasto | Toma foto de un gasto, confirma monto y categoría propuestos por IA | Pantalla de registro financiero |
-| 3 | Persona reflexiva | Asocia un emoji a cómo se sintió con esa decisión | Pantalla de registro emocional |
-| 4 | Persona activa | Recibe 1 token, ve progreso y racha actualizada | Pantalla de confirmación + saldo |
-| 5 | Persona que aprende | Accede a micro-lección relacionada, responde cuestionario, gana 3 tokens | Pantalla de lección |
-| 6 | Persona que acumula | Al alcanzar 50 tokens, visualiza y transfiere sus activos en Stellar | Pantalla de "Mis activos" (Stellar) |
-| 7 | Persona reflexiva | Al finalizar la semana, ve resumen de categorías, momentos y emociones | Pantalla de "Reflexión semanal" |
-| 8 | Persona retenida | Decide continuar o pausar. Sus datos, progreso y activos permanecen | Pantalla de "Semana siguiente" |
+El recorrido está diseñado para llevar al usuario desde la observación de una decisión financiera cotidiana hasta su primera experiencia de propiedad digital, mediante acciones pequeñas, inmediatas y fáciles de completar.
+
+1. **Entrada**
+La persona abre la app, completa un registro breve y conoce el propósito del recorrido, sin necesidad de proporcionar información financiera sensible.
+
+2. **Observar**
+Registra una compra o decisión financiera mediante una fotografía. La IA identifica el monto y propone una categoría: Antojo, Lo de siempre o Guardé. El usuario confirma o ajusta la información y registra con un emoji cómo se sintió.
+
+3. **Recibir**
+Al completar el registro, recibe una recompensa digital inmediata y visualiza su progreso y racha. Esto convierte la observación en una experiencia tangible.
+
+4. **Aprender**
+Puede acceder a una micro-lección relacionada con su experiencia financiera y responder un breve cuestionario. Completarla genera una recompensa adicional.
+
+5. **Poseer**
+Al alcanzar el umbral establecido, descubre cómo visualizar y mover sus activos digitales en un entorno controlado, sin necesitar conocimientos previos de blockchain.
+
+6. **Observar nuevamente**
+Al finalizar la semana, recibe un resumen descriptivo de sus registros: categorías, momentos y emociones asociadas. La app muestra patrones, pero no los interpreta ni prescribe qué hacer.
+
+7. **Continuar**
+El usuario decide si continúa la siguiente semana. Sus registros, progreso y activos permanecen disponibles para retomar el recorrido.
+
+**Ciclo central:** Observar → Aprender → Actuar → Recibir → Poseer → Volver a observar.
+
+El MVP busca validar si este ciclo consigue convertir una recompensa inicial en un hábito sostenido de observación financiera.
 
 ---
 
 ## 4. Alcance del MVP
 
-| Dentro del MVP (funcionalidad central) | Fuera del MVP (deseable, para después) |
-| --- | --- |
-| Onboarding básico (email, contraseña, explicación) | Recomendaciones personalizadas |
-| Registro financiero con foto + IA | Metas automáticas de ahorro |
-| Registro emocional (emoji) | Interpretación avanzada de patrones |
-| Tokens: recibir, visualizar, racha | Fondos compartidos |
-| Micro-lecciones + cuestionario | Staking / Pools de inversión |
-| Stellar: balance y transferencias | Funcionalidades B2B |
-| Reflexión semanal (datos, no interpretación) | Administración de fondos de terceros |
-| Hash inalterable de registros | Trading / Mercados |
-| Medición de activación, retención, retorno | Recomendaciones de ahorro |
+El MVP estará diseñado para validar la hipótesis de que observar decisiones financieras reales, recibir aprendizaje relacionado y obtener una recompensa digital inmediata puede motivar al usuario a repetir el proceso y comenzar a identificar sus propios patrones financieros.
 
-**Por qué el recorte sigue entregando valor:** El MVP valida el ciclo central (Observar → Aprender → Recibir → Poseer) sin necesidad de predicciones, recomendaciones o funcionalidades avanzadas. Responde la pregunta crítica: ¿Quieren las personas observar su comportamiento, aprender de él, recibir recompensa digital y volver a repetir? Si la respuesta es sí, todo lo demás es escalado. Si es no, las funcionalidades adicionales no importan.
+Por ello, el MVP construirá únicamente el recorrido necesario para observar activación, recurrencia y aprendizaje.
+
+**Incluye**
+
+1. **Onboarding:** registro básico y explicación de la experiencia, sin solicitar información financiera sensible.
+2. **Registro financiero:** captura de una compra o decisión mediante fotografía, extracción del monto cuando sea posible y clasificación asistida por IA en Antojo, Lo de siempre o Guardé.
+3. **Registro emocional:** el usuario asocia un emoji a la decisión registrada.
+4. **Recompensa inmediata:** recibe tokens por completar el registro y visualiza su progreso y racha.
+5. **Aprendizaje aplicado:** micro-lecciones breves relacionadas con la experiencia registrada, con mini-cuestionario y recompensa adicional.
+6. **Primera experiencia de propiedad digital:** el usuario puede visualizar y mover sus tokens en una cuenta de Stellar dentro de un entorno controlado de prueba, sin requerir conocimientos técnicos previos.
+7. **Reflexión semanal:** resumen descriptivo de categorías, momentos y emociones registradas. El sistema muestra evidencia, pero no interpreta, diagnostica ni entrega recomendaciones financieras.
+8. **Medición de recurrencia:** el sistema registra activación, frecuencia de uso, retorno semanal, finalización de aprendizajes y progresión hacia la primera experiencia de propiedad digital.
+
+**Fuera del MVP:** recomendaciones personalizadas, metas automáticas de ahorro, interpretación avanzada de patrones, fondos compartidos, staking, pools de inversión, funcionalidades B2B y administración de fondos de terceros.
+
+**El ciclo que debemos validar:** Observar → Aprender → Recibir → Poseer → Volver a observar.
+
+El objetivo del MVP no es demostrar todavía un cambio financiero sostenible. Es demostrar que las personas quieren observar su comportamiento financiero, aprender de él y regresar para repetir la experiencia.
 
 ---
 
 ## 5. Lean Canvas
 
-**Enlace al Lean Canvas (obligatorio):** [Lean Canvas del proyecto](https://github.com/devmondoss/AmorProof/blob/main/docs/semana2/LeanCanvass2.md)
-
-| Sección | Contenido |
-|---------|-----------|
-| **Problema** | • Repite patrones financieros sin identificar qué los dispara<br>• La educación financiera no se traduce en acción<br>• Entrar a cripto tiene barrera técnica |
-| **Segmento** | Adultos 25–49 años, económicamente activos, estrés financiero recurrente. Early adopters: digitales y curiosos por cripto. |
-| **Propuesta Única** | **Do-Own: Convierte el aprendizaje financiero en tu primer activo digital.** |
-| **Solución** | Registro foto + emoji → Micro-lecciones → Tokens → Stellar (propiedad real) |
-| **Canales** | Creadores fintech, comunidades Web3, programas innovación, Escuela Amor Propio, referidos |
-| **Métricas** | Activación (primer registro), Retención (D7/D14/D28), Registros/semana, Lecciones completadas, % que accede a Stellar |
-| **Ventaja** | Comportamiento financiero + aprendizaje aplicado + recompensa digital tangible = propiedad real |
-| **Costos** | Desarrollo, IA, Stellar, contenido educativo, seguridad, adquisición usuarios |
-| **Ingresos** | Freemium (MVP gratuito) → Premium (futuro), B2B (empresas), licencias |
+**Enlace (obligatorio):** [Lean Canvas del proyecto](https://github.com/devmondoss/AmorProof/blob/c36f30529a041a2d2d79fbe96445baf236a2ff67/docs/semana2/LeanCanvass2%20AmorProof.png)
 
 ---
 
 ## 6. Backlog priorizado (Kanban)
 
-**Enlace al tablero (obligatorio):** [Backlog Semana 2 - Do-Own](https://github.com/devmondoss/AmorProof/projects/1)
+Enlace al tablero en GitHub Projects, construido con las historias priorizadas, en columnas y con criterios de aceptación por tarjeta.
 
-El tablero contiene las 9 historias priorizadas, organizadas en columnas (Backlog, Ready, In progress, In review, Done) con criterios de aceptación por tarjeta, asignaciones y labels técnicos.
+**Enlace al tablero (obligatorio):** [Backlog Semana 2 - Do-Own](https://github.com/devmondoss/AmorProof/projects/1)
 
 ---
 
 ## 7. Arquitectura inicial
 
-**Capa 1: Interfaz (Frontend)**
-- Pantallas: Onboarding, Registro financiero, Registro emocional, Confirmación, Micro-lección, Mis activos, Reflexión semanal
-- Interacción con usuario
+La arquitectura del MVP se divide en cuatro capas. La primera es la interfaz, donde el usuario registra sus decisiones financieras, emociones y gastos, recibe microlecciones, completa actividades y visualiza su progreso y recompensas.
 
-**Capa 2: Lógica (Backend)**
-- Autenticación y gestión de usuarios
-- Clasificación de fotos (IA)
-- Motor de recompensas (tokens, racha)
-- Motor de aprendizaje (matcheo lecciones)
-- Cálculo de hashes
+La segunda es la lógica de aplicación, encargada de procesar la información, clasificar registros, validar acciones, gestionar usuarios y ejecutar el motor de aprendizaje y recompensas.
 
-**Capa 3: Datos Off-Chain (Base de datos)**
-- Información financiera y emocional
-- Fotografías
-- Historial de registros
-- Contenido educativo
-- Progreso del usuario (tokens locales, racha)
+La tercera corresponde a los datos off-chain, donde se almacenan la información financiera y emocional, fotografías, historial, contenido educativo, progreso y demás información necesaria para personalizar la experiencia. Estos datos no se almacenan directamente en Stellar.
 
-**Capa 4: Stellar (Blockchain)**
-- Cuenta usuario
-- Activo digital (Do-Own token)
-- Balance
-- Transferencias
-- Hashes verificables
+La cuarta es la capa Stellar, utilizada específicamente cuando se requiere propiedad o verificación. En el MVP, Stellar Testnet permitirá crear la cuenta del usuario, emitir el activo digital de recompensa, registrar su balance y ejecutar transferencias. Cuando sea necesario demostrar la integridad de un registro, podrá generarse un hash de la información y anclar únicamente esa huella en la red.
 
-**Regla arquitectónica:** "La aplicación guarda la experiencia; Stellar verifica y materializa la propiedad digital."
-
-**En qué punto entra la red:** Stellar entra SOLO cuando hay necesidad de propiedad (crear cuenta, recibir tokens), transferencia (enviar tokens) o verificabilidad (anclar hash de integridad). El resto vive off-chain. Esto mantiene privacidad, velocidad y costo bajo.
+**Regla arquitectónica:** la aplicación guarda la experiencia; Stellar verifica y materializa la propiedad digital.
 
 ---
 
 ## 8. Uso de Stellar y justificación
 
-**Criterio de pertinencia (del Problem Brief):** "El histórico no puede alterarse." Aplicado aquí: el usuario debe poder confiar en que su recompensa es real, transferible y no alterada por nadie (ni la app, ni él mismo en un momento de duda).
+Stellar se utilizará únicamente en los puntos donde la tecnología blockchain aporta una ventaja concreta al producto: propiedad digital, transferencia e integridad verificable. No se utilizará para almacenar la experiencia completa del usuario ni información financiera o emocional sensible.
 
-| Componente de Stellar | Para qué lo usamos | Por qué ese y no otra alternativa |
-| --- | --- | --- |
-| Cuenta Stellar (keypair) | Propiedad real del usuario sobre sus activos | Ethereum requiere gas alto. Stellar es más simple y barato (~$0.000002 USD/tx). |
-| Activo custom (Do-Own) | Emitir tokens como recompensa real | Bitcoin no permite activos custom. Stellar sí, diseñado para esto. |
-| Transacciones | Transferir tokens entre usuarios | Validar que la transacción es real y verificable. |
-| Memo (transacciones) | Anclar hash SHA256 de registros | Comprobar después que un registro no fue alterado sin revelar contenido. |
+El componente principal será la cuenta Stellar del usuario, necesaria para que pueda ser propietario de los activos que recibe como recompensa. Para el MVP se utilizará Stellar Testnet, permitiendo validar el funcionamiento sin involucrar dinero real.
 
-**Por qué Stellar específicamente:** Porque resuelve la necesidad exacta del producto (propiedad digital + transferencia + verificabilidad) sin requerir del usuario entender blockchain, sin costos prohibitivos y sin sacrificar privacidad (los datos sensibles permanecen off-chain).
+Se utilizarán activos emitidos sobre Stellar para representar las recompensas digitales obtenidas mediante acciones de aprendizaje y comportamiento financiero. El usuario podrá visualizar su balance y, en una etapa posterior, transferir dichos activos a otra cuenta compatible.
+
+También se utilizarán las transacciones de Stellar para registrar transferencias y generar evidencia verificable de determinadas acciones. Cuando sea pertinente, el sistema podrá calcular un hash de un registro off-chain y anclar esa huella en Stellar. De esta manera, se puede comprobar posteriormente que un registro no fue alterado sin revelar su contenido en la blockchain.
+
+La pertinencia de Stellar se basa en que resuelve una necesidad específica del producto: convertir una recompensa interna de la aplicación en un activo digital que el usuario realmente puede poseer y transferir.
+
+Por ello, la regla será: si una función no necesita propiedad, transferencia o verificabilidad entre partes, permanece fuera de Stellar. Esto evita incorporar blockchain por moda y mantiene una arquitectura más simple, privada y escalable.
 
 ---
 
-**Fecha:** 2026-10-04  
-**Estado:** Listo para entregar
+## Árbol de estructura
+
+```
+nombre-del-repo/
+└── docs/
+    ├── semana1/
+    │   ├── MariaPaula.md              ← propuesta individual (semana 1)
+    │   ├── ...
+    │   └── ProblemBrief.md            ← entregable grupal (semana 1)
+    └── semana2/
+        ├── MariaPaula.md              ← historias de usuario individuales
+        ├── ...
+        └── ProductBlueprint.md        ← entregable grupal (semana 2)
+                                         + tablero Kanban en GitHub Projects (enlazado)
+```

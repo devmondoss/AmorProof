@@ -4,7 +4,7 @@
 
 **Concepto en una frase:** Un historial verificable de tus decisiones financieras para que veas tus patrones y cambies tus hábitos.
 
-**Base:** [Problem Brief v2](../semana1/ProblemBrief.md) · [MVP Backlog](../../MVP_BACKLOG_FINAL.md)
+**Base:** [Problem Brief v2](../semana1/ProblemBrief.md) · [Backlog (tablero Kanban)](https://github.com/devmondoss/AmorProof/projects/1)
 
 > Los puntos marcados con ⚠️ son propuestas que aún no están en los documentos del equipo y deben validarse.
 
