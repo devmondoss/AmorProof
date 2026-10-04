@@ -1,8 +1,8 @@
 # Product Blueprint
 
-**Nombre del proyecto:** AmorProof
+**Nombre del proyecto:** Do-Own
 
-**Repositorio (enlace obligatorio):** [AmorProof](https://github.com/devmondoss/AmorProof)
+**Repositorio (enlace obligatorio):** [Do-Own](https://github.com/devmondoss/AmorProof)
 
 ---
 
@@ -94,7 +94,7 @@ AmorProof: Registra → Aprende → Actúa → Recibe → Posee. Todo en una sol
 |---------|-----------|
 | **Problema** | • Repite patrones financieros sin identificar qué los dispara<br>• La educación financiera no se traduce en acción<br>• Entrar a cripto tiene barrera técnica |
 | **Segmento** | Adultos 25–49 años, económicamente activos, estrés financiero recurrente. Early adopters: digitales y curiosos por cripto. |
-| **Propuesta Única** | **Convierte el aprendizaje financiero en tu primer activo digital.** |
+| **Propuesta Única** | **Do-Own: Convierte el aprendizaje financiero en tu primer activo digital.** |
 | **Solución** | Registro foto + emoji → Micro-lecciones → Tokens → Stellar (propiedad real) |
 | **Canales** | Creadores fintech, comunidades Web3, programas innovación, Escuela Amor Propio, referidos |
 | **Métricas** | Activación (primer registro), Retención (D7/D14/D28), Registros/semana, Lecciones completadas, % que accede a Stellar |
@@ -106,7 +106,7 @@ AmorProof: Registra → Aprende → Actúa → Recibe → Posee. Todo en una sol
 
 ## 6. Backlog priorizado (Kanban)
 
-**Enlace al tablero (obligatorio):** [Backlog Semana 2 - AmorProof](https://github.com/devmondoss/AmorProof/projects/1)
+**Enlace al tablero (obligatorio):** [Backlog Semana 2 - Do-Own](https://github.com/devmondoss/AmorProof/projects/1)
 
 El tablero contiene las 9 historias priorizadas, organizadas en columnas (Backlog, Ready, In progress, In review, Done) con criterios de aceptación por tarjeta, asignaciones y labels técnicos.
 

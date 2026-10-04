@@ -1,13 +1,23 @@
-# Problem Brief - AmorProof
-**Versión 2.0** (Actualizada)
+# Problem Brief
+
+**Nombre del proyecto:** Do-Own
+
+**Repositorio (enlace obligatorio):** [Do-Own](https://github.com/devmondoss/AmorProof)
 
 ---
 
-## Decisión del problema
+## Contenido
+
+1. Decisión del problema
+2. Problem Brief
+
+---
+
+## 1. Decisión del problema
 
 ### Problema elegido
 
-Un adulto de 31 años experimenta estrés financiero porque enfrenta decisiones cotidianas sobre gasto, ahorro y deuda y al no comprender sus propios hábitos financieros, termina mes con mes endeudado y estresado al repetir lo mismo.
+Un oficinista de 31 años en CDMX enfrenta decisiones cotidianas sobre gasto, ahorro y deuda y al no comprender sus propios hábitos financieros, termina mes con mes endeudado y estresado al repetir lo mismo.
 
 **Idea propuesta por:** Elba y Adriana
 
@@ -31,23 +41,24 @@ NA
 
 ---
 
-## Problem Brief
+## 2. Problem Brief
 
 ### Encabezado
 
-Una persona de 31 años sabe qué debería cambiar en cómo gasta, ahorra o paga sus deudas, pero mes tras mes repite lo mismo sin identificar la razón, y termina endeudándose otra vez.
+Un oficinista de 31 años en CDMX sabe qué debería cambiar en cómo gasta, ahorra o paga sus deudas, pero mes tras mes repite lo mismo sin identificar la razón, y termina endeudándose otra vez.
 
 ### Equipo y roles
 
-- [@AdrianaLhada](https://github.com/AdrianaLhada) — Rol: Methodology & Product Lead
-- [@elba333](https://github.com/elba333) — Rol: Product & Business Lead
-- [@devmondoss](https://github.com/devmondoss) — Rol: Full Stack
-- [@nayelicz](https://github.com/nayelicz) — Rol: Backend
-- [@rodyxdev](https://github.com/rodyxdev) — Rol: Backend
+| Rol | Integrante | GitHub |
+|-----|-----------|--------|
+| Methodology & Product Lead | Adriana Lhada | [@AdrianaLhada](https://github.com/AdrianaLhada) |
+| Product & Business Lead | Elba | [@elba333](https://github.com/elba333) |
+| Full Stack | Anthony López | [@devmondoss](https://github.com/devmondoss) |
+| Backend | Nayeli | [@nayelicz](https://github.com/nayelicz) |
+| Backend | Rodrigo | [@rodyxdev](https://github.com/rodyxdev) |
 
-Responsable de las entregas: [@devmondoss](https://github.com/devmondoss)
-
-Canal de coordinación interna: [Discord](https://discord.com/invite/ZYuhNhCp)
+**Responsable de entregas:** [@devmondoss](https://github.com/devmondoss)  
+**Canal coordinación:** [Discord](https://discord.com/invite/ZYuhNhCp)
 
 ### Problema y evidencia
 
@@ -57,7 +68,7 @@ Estos datos muestran que el estrés financiero tiene una presencia relevante y t
 
 Actualmente existen contenidos de educación financiera, aplicaciones para registrar gastos, herramientas bancarias, cursos y asesoría. Estas soluciones pueden aportar conocimiento o información financiera, pero el usuario debe conectar por sí mismo lo aprendido con sus decisiones cotidianas y evaluar si realmente está cambiando sus hábitos.
 
-Nuestra hipótesis de problema es que hacer visibles esas decisiones y su evolución puede ayudar a transformar el conocimiento financiero en comportamiento.
+Nuestra hipótesis de problema es que **hacer visibles esas decisiones y su evolución puede ayudar a transformar el conocimiento financiero en comportamiento.**
 
 ### Usuario y actores
 
@@ -73,7 +84,7 @@ El costo para el usuario puede ser económico, por suscripciones, cursos o aseso
 - **Educadores y creadores de contenido:** proporcionan conocimiento y recomendaciones.
 - **Asesores financieros:** ofrecen orientación personalizada.
 
-El problema es que la información y el aprendizaje quedan distribuidos entre diferentes actores y herramientas.
+El problema es que la información y el aprendizaje quedan **distribuidos entre diferentes actores y herramientas.**
 
 ### Flujo actual de valor
 
@@ -101,25 +112,28 @@ El problema es que la información y el aprendizaje quedan distribuidos entre di
 
 ### Oportunidad e hipótesis
 
-La oportunidad es crear una experiencia que conecte educación financiera + comportamiento + evidencia de progreso.
+La oportunidad es crear una experiencia que conecte **observación financiera + aprendizaje aplicado + recompensa digital + evidencia del propio comportamiento.**
 
-La persona aprendería un concepto concreto, lo aplicaría en una situación real y registraría la decisión. Con el tiempo, el sistema podría devolverle patrones: qué comportamientos repite, en qué situaciones aparecen, qué acciones ha conseguido modificar y qué avances está acumulando.
+Hoy, una persona puede consumir educación financiera sin aplicarla a sus decisiones reales, o registrar sus gastos sin comprender qué patrones se repiten detrás de ellos. Existe una oportunidad de unir ambos procesos y convertir cada decisión cotidiana en una oportunidad de aprendizaje.
 
 **Hipótesis central:**
 
-Si una persona aprende conceptos financieros mientras los aplica a decisiones reales y recibe evidencia acumulada de sus propios comportamientos, entonces podrá identificar patrones que antes pasaban desapercibidos y tendrá mayores elementos para construir hábitos financieros sostenibles.
+Si una persona observa y registra decisiones financieras reales, recibe aprendizaje relacionado con esas decisiones y una recompensa digital inmediata por completar el proceso, entonces tendrá mayor motivación para repetir la experiencia y podrá comenzar a identificar patrones de su propio comportamiento financiero.
 
-El sistema de puntos que hemos explorado tendría aquí una función específica: reconocer el comportamiento que conduce al aprendizaje, no premiar la riqueza.
+El sistema de recompensas no busca premiar cuánto dinero tiene o cuánto ahorra, sino reconocer la participación en el proceso de aprendizaje y observación.
 
-Podría otorgar puntos por completar aprendizajes, registrar decisiones, cumplir pequeños compromisos, alcanzar metas personales o mantener determinados hábitos.
+**El MVP permitirá validar tres comportamientos observables:**
+1. **Activación:** la persona completa su primer registro.
+2. **Recurrencia:** vuelve a registrar decisiones durante las semanas siguientes.
+3. **Aprendizaje:** completa micro-lecciones relacionadas con sus propias experiencias.
 
-Así, el producto no competiría únicamente por ofrecer "más educación financiera", sino por convertirla en un proceso de aprendizaje activo y cambio de comportamiento.
+El estrés financiero es el problema que queremos ayudar a reducir; la **observación y el aprendizaje aplicado** son el mecanismo inicial de intervención; la **recompensa digital** funciona como incentivo para sostener la participación.
 
-El estrés financiero sería el problema que queremos ayudar a reducir; el cambio de hábitos financieros sería el mecanismo de intervención.
+**La validación del MVP no será demostrar que el usuario ya cambió sus finanzas, sino comprobar que quiere observarlas, aprender de ellas y volver a hacerlo.**
 
 ### Criterio de pertinencia
 
-El caso se apoya principalmente en el criterio de "el histórico no puede alterarse". La propuesta busca construir un historial verificable de las decisiones y acciones que una persona realiza durante su proceso de cambio de hábitos financieros. El valor estaría en que ese historial no dependa exclusivamente de la base de datos administrada por la empresa ni pueda ser modificado posteriormente para mostrar una versión diferente del proceso.
+El caso se apoya principalmente en el criterio de **"el histórico no puede alterarse."** La propuesta busca construir un historial verificable de las decisiones y acciones que una persona realiza durante su proceso de cambio de hábitos financieros. El valor estaría en que ese historial no dependa exclusivamente de la base de datos administrada por la empresa ni pueda ser modificado posteriormente para mostrar una versión diferente del proceso.
 
 Una base de datos tradicional puede registrar fechas, acciones y resultados, pero quien administra la infraestructura mantiene capacidad técnica para modificar, eliminar o corregir información. Una integración entre sistemas tampoco elimina necesariamente esa dependencia: cada plataforma continúa siendo responsable de su propio registro.
 
@@ -131,38 +145,16 @@ No obstante, esto constituye una hipótesis que deberá validarse. Si una base d
 
 ### Supuestos y riesgos
 
-**Supuesto 1:** la persona necesita un histórico confiable para reconocer su evolución y los patrones de sus decisiones financieras. 
+**Supuesto 1:** la persona necesita un histórico confiable para reconocer su evolución y los patrones de sus decisiones financieras.  
 **Riesgo:** si el usuario considera suficiente consultar sus resultados actuales y no necesita demostrar cómo llegó a ellos, la inmutabilidad no aporta valor y una base de datos tradicional sería suficiente.
 
-**Supuesto 2:** hacer visible y verificable el comportamiento acumulado ayudará a sostener cambios financieros. 
+**Supuesto 2:** hacer visible y verificable el comportamiento acumulado ayudará a sostener cambios financieros.  
 **Riesgo:** si observar los propios patrones no produce cambios de conducta, el registro —aunque sea inalterable— no resolverá el problema principal. En ese caso, podrían ser necesarios acompañamiento, incentivos u otros mecanismos de intervención.
 
-**Supuesto 3:** el usuario aceptará registrar información financiera y, potencialmente, el contexto asociado a sus decisiones porque percibe suficiente beneficio a cambio. 
+**Supuesto 3:** el usuario aceptará registrar información financiera y, potencialmente, el contexto asociado a sus decisiones porque percibe suficiente beneficio a cambio.  
 **Riesgo:** si la privacidad, el esfuerzo de registro o la complejidad tecnológica generan desconfianza, la persona puede abandonar antes de acumular un histórico útil.
 
-**Supuesto 4:** un registro inalterable, verificado mediante blockchain, sigue generando confianza suficiente incluso sin exponer el contenido sensible en sí, solo la prueba de que el registro existe y no fue modificado. 
-**Riesgo:** si la persona no confía en un mecanismo técnico que no comprende del todo, preferirá volver a un registro editable y perderá el valor central de la propuesta.
-
 ---
 
-## Árbol de estructura
-
-```
-nombre-del-repo/
-└── docs/
-    └── semana1/
-        ├── MariaPaula.md        ← propuesta individual (una por integrante)
-        ├── Juan.md              ← propuesta individual
-        ├── Pepe.md              ← propuesta individual
-        └── ProblemBrief.md      ← entregable grupal del equipo (ESTE ARCHIVO)
-```
-
----
-
-## Participantes
-
-- [@AdrianaLhada](https://github.com/AdrianaLhada)
-- [@elba333](https://github.com/elba333)
-- [@nayelicz](https://github.com/nayelicz)
-- [@devmondoss](https://github.com/devmondoss)
-- [@rodyxdev](https://github.com/rodyxdev)
+**Fecha:** 2026-10-04  
+**Estado:** Listo para entregar
