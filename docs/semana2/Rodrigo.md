@@ -1,6 +1,6 @@
 Mis historias de usuario
 
-Como oficinista que vive con autoexigencia o estrés, quiero registrar en tiempo real lo que pienso, siento y hago en el instante exacto en que se activa un episodio 1.-de presión, para capturar mi reacción honesta sin depender de lo que recuerde horas después.
+1.-Como oficinista que vive con autoexigencia o estrés, quiero registrar en tiempo real lo que pienso, siento y hago en el instante exacto en que se activa un episodio de presión, para capturar mi reacción honesta sin depender de lo que recuerde horas después.
 
 2.-Como oficinista en proceso de cambio de hábitos, quiero consultar una línea de tiempo acumulada e inalterable de mis registros, para confrontar mis patrones automáticos frente a hechos reales y no frente a una versión editada o idealizada de mí mismo.
 
